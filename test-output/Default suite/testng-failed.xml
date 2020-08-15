@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="com.training.testrunner.TestRunner">
+      <class name="com.casestudy1.ParameterizationDataproviderTestDB">
         <methods>
-          <include name="setUpClass"/>
-          <include name="feature"/>
-          <include name="tearDownClass"/>
+          <include name="myTest"/>
         </methods>
-      </class> <!-- com.training.testrunner.TestRunner -->
+      </class> <!-- com.casestudy1.ParameterizationDataproviderTestDB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

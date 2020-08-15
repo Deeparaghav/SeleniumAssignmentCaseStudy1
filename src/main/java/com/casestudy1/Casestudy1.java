@@ -22,13 +22,13 @@ public class Casestudy1 {
 		driver.findElement(By.id("registration_firstname")).sendKeys("Deepa");
 		driver.findElement(By.id("registration_lastname")).sendKeys("Surya");
 		driver.findElement(By.id("registration_email")).sendKeys("msdeepashree@gmail.com");
-			        int r = (int) (Math.random() * 500.0D);
-	        if (r <= 10) {
-	            r += 11;
+		int r = (int) (Math.random() * 500.0D);
+	        if (r <= 12345678) {
+	            r = 12345678;
+	            r = r + 1;
 	            System.out.println(r);
 	        }
-	        WebElement element = driver
-	                .findElement(By.id("username"));
+	        WebElement element = driver.findElement(By.id("username"));
 	        element.sendKeys(new CharSequence[] { String.valueOf(r) });
 	        //element = driver.findElement(By.id("username"));
 //		driver.findElement(By.id("username")).sendKeys("Deepashreems26");
